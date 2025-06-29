@@ -14,9 +14,6 @@ dependencies:
   hive_flutter: ^1.1.0
   path_provider: ^2.0.15
   intl: ^0.18.1
-
-
-# For bonus features (optional)
   flutter_local_notifications: ^16.3.1
   shared_preferences: ^2.2.2
 
