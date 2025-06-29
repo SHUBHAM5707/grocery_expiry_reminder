@@ -42,6 +42,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Grocery Expiry Reminder',
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
