@@ -20,9 +20,13 @@ A simple Flutter application to help users track grocery items and get reminded 
 
 ## 📱 Screenshots
 
-| Add Item | Item List with Indicator | Dark Mode |
-|----------|--------------------------|-----------|
-| *(Add your screenshots here)* | *(Add your screenshots here)* | *(Add your screenshots here)* |
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light](./fba7b519-6494-4459-b4fe-0f13ac9ade6e.png) | ![Dark](./b7f1f7b3-8542-4482-b164-21a4af470192.png) |
+
+| Date Picker | Expiry List |
+|-------------|-------------|
+| ![Date Picker](./041b79cf-7333-45a5-acc0-027d98c9f7d5.png) | ![List](./70311f74-08bd-4023-b238-7a5ef4f78236.png) |
 
 ---
 
@@ -82,13 +86,13 @@ flutter run
 
 ## 📦 Dependencies
 
-| Package                  | Usage                            |
-|--------------------------|----------------------------------|
-| `hive`, `hive_flutter`   | Local data storage               |
-| `flutter_local_notifications` | Local notification alerts     |
-| `intl`                   | Date formatting                  |
-| `shared_preferences`     | Theme mode persistence           |
-| `build_runner`, `hive_generator` | Code generation for Hive     |
+| Package                        | Usage                            |
+|-------------------------------|----------------------------------|
+| `hive`, `hive_flutter`         | Local data storage               |
+| `flutter_local_notifications` | Local notification alerts        |
+| `intl`                         | Date formatting                  |
+| `shared_preferences`          | Theme mode persistence           |
+| `build_runner`, `hive_generator` | Code generation for Hive       |
 
 ---
 
@@ -96,12 +100,6 @@ flutter run
 
 - Users will get a **reminder 1 day before** an item's expiry date.
 - Notifications are scheduled at the time of item addition.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
